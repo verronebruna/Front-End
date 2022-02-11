@@ -1,4 +1,4 @@
-/*Estilos da página Index.html - Atividade 2*/
+/*Estilos da página Index.html e contato.html - Atividade 2*/
 .center{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +6,7 @@
     margin-right: 50px;
     color: #bc74b6;
 }
-
+/*Imagem*/
 IMG.displayed {
     display: block;
     margin-left: auto;
@@ -15,38 +15,40 @@ IMG.displayed {
 
 body{
     background-color: #f4ebdc;
-    margin: 0;
+    margin: 5px, 5px; 
     padding: 15px;
+    
 }
 
-/* The navigation bar */
+/* Barra de navegação.*/
 .navbar {
-    overflow: hidden;
-    background-color: #f4ebdc;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: auto; /* Full width */
+    overflow: auto; /*seria a quebra de linha*/
+    background-color: #f4ebdc; /*cor da barra de nav*/
+    position: fixed; /*Muda a posição da barra nav - altura/sobrepoe/etc */
+    top: 0; /* Posição da barra de nav - no caso 0 pois está no topo!*/
+    width: auto; /* largura da navbar? */
+    
   }
   
-  /* Links inside the navbar */
+  /* Links na barra de navegação */
   .navbar a {
-    float: left;
+    float: left; /*é a ordem dos links da navbar*/
     display: block;
-    color: #d4a1ac;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
+    color: #d4a1ac; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+    padding: 13px 13px; /*tamanho do botão da barra nav*/
+    text-decoration: none; /*tira o underline do texto*/
   }
   
-  /* Change background on mouse-over */
+  /* Mudar o fundo da barra de navegação */
   .navbar a:hover {
-    background: #ddd;
-    color: #bc74b6;
+    background: #ddd; /*cor da barra de nav quando passa o mouse*/
+    color: #bc74b6; /*cor do texto quando passa o mouse*/
   }
   
   /* Main content */
   .main {
-    margin-top: 3em; /* Add a top margin to avoid content overlay */
+    margin-top: 5px /*Adiciona uma margem evitanto sobreposição*/
   }
 
-/*Estilos da página Index.html - Atividade 2*/
+/*Estilos da página Index.html e contato.html - Atividade 2*/
