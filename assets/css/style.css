@@ -2,9 +2,8 @@
 .center{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 35px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: #bc74b6;
 }
 
@@ -16,7 +15,10 @@ IMG.displayed {
 
 body{
     background-color: #f4ebdc;
+    margin: 0;
+    padding: 15px;
 }
+
 /* The navigation bar */
 .navbar {
     overflow: hidden;
@@ -32,19 +34,19 @@ body{
     display: block;
     color: #d4a1ac;
     text-align: center;
-    padding: 16px 16px;
+    padding: 10px 20px;
     text-decoration: none;
   }
   
   /* Change background on mouse-over */
   .navbar a:hover {
     background: #ddd;
-    color: #d4a1ac;
+    color: #bc74b6;
   }
   
   /* Main content */
   .main {
-    margin-top: 250px; /* Add a top margin to avoid content overlay */
+    margin-top: 3em; /* Add a top margin to avoid content overlay */
   }
 
 /*Estilos da página Index.html - Atividade 2*/
