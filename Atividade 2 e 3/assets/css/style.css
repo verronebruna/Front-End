@@ -1,0 +1,111 @@
+/*Estilos da página Index.html e contato.html - Atividade 2*/
+.center{
+    text-align: center;
+    font-family: 'OratorStd', sans-serif!important;
+    margin: 20px 40px 20px;
+    color: #5b467a;
+}
+
+.font{
+  color: #5b467a;
+  font-family: Poppins,sans-serif; /*define a fonte*/
+  text-align: center;
+}
+
+/*Imagem*/
+img.foto {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+body{
+  /*background-image: url('https://www.teahub.io/photos/full/40-409335_1920x1080-pastel-wallpaper-tumblr-aesthetic-backgrounds..jpg');
+  background-size: cover;*/
+ /* background-image: linear-gradient(to bottom, #f2e8db,rgba(255, 192, 203, 0.897) , #8d005e59);*/
+
+
+  background-color: #f4ebdc;
+  margin:2px 1em 0 auto; /*sequencia: topo | direita | inferior | esquerda*/
+  padding: 15px;
+}
+
+/* Barra de navegação.*/
+.navbar {
+    overflow: auto; /*seria a quebra de linha*/
+    background-color: #f4ebdc; /*cor da barra de nav*/
+    position: fixed; /*Muda a posição da barra nav - altura/sobrepoe/etc */
+    top: 0; /* Posição da barra de nav - no caso 0 pois está no topo!*/
+    width: auto; /* largura da navbar? */
+    font-family: Poppins,sans-serif; /*define a fonte*/
+  }
+  
+  /* Links na barra de navegação */
+  .navbar a {
+    display: inline-block;
+    color: #5b467a; /*cor do texto*/
+    text-align: center; /*alinhamento do texto*/
+    padding: 13px 13px; /*tamanho do botão da barra nav*/
+    text-decoration: none; /*tira o underline do texto*/
+  }
+  
+  /* Mudar o fundo da barra de navegação */
+  .navbar a:hover {
+    background: #ddd; /*cor da barra de nav quando passa o mouse*/
+    color: #bc74b6; /*cor do texto quando passa o mouse*/
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 5px /*Adiciona uma margem evitanto sobreposição*/
+}
+
+  /*essa div altera o maps*/
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+  padding: 13px;
+  font-size: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin:center;
+  border-radius: 50%;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #A359A0;
+color: white;
+}
+
+.fa-twitter {
+background: #A359A0;
+color: white;
+}
+
+.fa-linkedin {
+background: #A359A0;
+color: white;
+}
+
+.fa-instagram {
+background: #A359A0;
+color: white;
+}
+
+.fa-github {
+  background: #A359A0;
+  color: white;
+}
+  
+/*Estilos da página Index.html e contato.html - Atividade 2*/
